@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'liteAVSDK'
+  spec.name         = 'videosdk'
   spec.version      = '3.1.1'
   spec.platform     = :ios
   spec.ios.deployment_target = '7.0'
