@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/rushanting/videosdk.git' }
   spec.source_files = 'frameworks/GPUImage.framework/Headers/*'
   spec.vendored_frameworks = 'frameworks/GPUImage.framework'
-  spec.ios.framework    = ['SystemConfiguration','CoreTelephony', 'VideoToolbox', 'CoreGraphics', 'AVFoundation', 'Acceleate']
+  spec.ios.framework    = ['SystemConfiguration','CoreTelephony', 'VideoToolbox', 'CoreGraphics', 'AVFoundation', 'Accelerate']
   spec.ios.library = 'z', 'resolv', 'iconv', 'stdc++', 'c++'
 end
