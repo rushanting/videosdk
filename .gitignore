@@ -6,6 +6,12 @@
 build/
 DerivedData/
 
+.DS_Store
+*/.DS_Store
+
+.gitignore
+*/.gitignore
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
