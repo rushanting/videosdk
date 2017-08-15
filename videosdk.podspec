@@ -7,11 +7,10 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://cloud.tencent.com/product/mlvb'
   spec.authors      = { 'rstru' => '249143989@qq.com' }
   spec.summary      = 'SDK for live video base on RTMP protocol'
-  spec.source       = { :http => 'http://localhost/3.0/TXLiteAVSDK_Smart_iOS_3.0.1190.zip' }
-  #spec.source       = { :git => 'https://github.com/rushanting/videosdk.git' }
+  spec.source       = { :http => 'http://liteavsdk-1252463788.cosgz.myqcloud.com/3.0/TXLiteAVSDK_Smart_iOS_3.0.1190.zip' }
   spec.preserve_paths = 'TXLiteAVSDK_Smart/SDK/TXLiteAVSDK_Smart.framework'
-  spec.source_files = 'TXLiteAVSDK_Smart/SDK/TXLiteAVSDK.framework/Headers/*.h'
-  #spec.source_files = 'frameworks/GPUImage.framework/Headers/*.h'
+  spec.source_files = 'TXLiteAVSDK_Smart/SDK/TXLiteAVSDK_Smart.framework/Headers/*.h'
+  spec.public_header_files = 'TXLiteAVSDK_Smart/SDK/TXLiteAVSDK_Smart.framework/Headers/*.h'
   spec.vendored_frameworks = 'TXLiteAVSDK_Smart/SDK/TXLiteAVSDK_Smart.framework'
   spec.ios.framework    = ['SystemConfiguration','CoreTelephony', 'VideoToolbox', 'CoreGraphics', 'AVFoundation', 'Accelerate']
   spec.ios.library = 'z', 'resolv', 'iconv', 'stdc++', 'c++'
